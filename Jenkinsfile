@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'jenkinsnetcoreagent:latest'
+      image 'jenkins/agent'
     }
   }
 
